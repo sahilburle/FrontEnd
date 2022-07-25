@@ -5,16 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First CSS Line</title>
-    <style>
-        body{
-            background-color:aqua;
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        #first{
+            background-color: aqua;
         }
-    </style>
+        .bg-blue{
+            background-color: crimson;
+            color: white;
+        }
+        /* #second{
+            background-color: chartreuse;
+        } */
+    </style> -->
 </head>
 <body>
-    <div class="container">
-
+    <div id="first">
+        first
     </div>
-    Hello
+    <div id="second">
+        second
+    </div>
+    <section class="red">
+        red
+    </section>
+    <section class="red bg-blue border-purple">
+        red bg blue and border purple
+    </section>
 </body>
 </html>

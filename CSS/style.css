@@ -1,0 +1,14 @@
+/*hash # is used for id*/
+#first{
+    background-color: aqua;
+}
+
+/*DOT . is used for class*/
+.bg-blue{
+    background-color: crimson;
+    color: white;
+}
+
+#second{
+    background-color: chartreuse;
+}
