@@ -62,3 +62,14 @@ console.log(elem);
 let elemClass = document.getElementsByClassName('container');
 console.log(elemClass);
 elemClass[0].style.background = "yellow";
+
+//  Events in JS
+click.addEventListener('mouseover', function(){
+    console.log("mouse aaya")
+})
+
+//Arrow Functions
+
+summ = (a, b)=>{
+    return a + b;
+}
