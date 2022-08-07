@@ -73,3 +73,8 @@ click.addEventListener('mouseover', function(){
 summ = (a, b)=>{
     return a + b;
 }
+
+logKaro = ()=>{
+    console.log('I am ur log')
+}
+setTimeout(logKaro, 2000);
