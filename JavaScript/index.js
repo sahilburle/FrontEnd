@@ -6,3 +6,29 @@ var num1 = 10;
 var num2 = 12;
 
 console.log(num1 + num2);
+
+var str1 = 'this is string';
+console.log(str1);
+
+//objects
+var marks ={
+    ravi: 50,
+    shubham: 60,
+    harry: 70
+}
+
+console.log(marks);
+
+var arr = [1,2,3,4,5]
+
+function avg(a, b){
+    c = (a + b)/2;
+    return c;
+}
+
+c1 = avg(4, 6);
+c2 = avg(14, 16);
+
+arr.forEach(function(element){
+    console.log(element)
+})
