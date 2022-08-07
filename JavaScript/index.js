@@ -41,3 +41,4 @@ while(j < arr.length){
 }
 
 let myArr = ["Fan", 34, null, true];
+console.log(myArr.length);
