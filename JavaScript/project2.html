@@ -152,6 +152,22 @@
       add = document.getElementById("add");
       add.addEventListener("click", () => {
         console.log("Updating List");
+
+        tit = document.getElementById('title').value;
+        des = document.getElementById('description').value;
+
+        if (localStorage.getItem('itemsJson')==null){
+
+            itemJsonArray = [];
+            itemJsonArray.push([tit, desc])
+            localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray))
+        }
+        else{
+            itemJsonArray = localStorage.getItem('itemsJson')
+            itemJsonArray = JSON.parse(itemJsonArrayStr);
+            itemJsonArray.push([tit, desc]);
+            localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray))
+        }
       });
     </script>
   </body>
